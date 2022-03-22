@@ -10,6 +10,5 @@ export class ListadoComponent {
 
   borrarHeroe() {
     this.heroeBorrado = this.heroes.pop() || '';
-    console.log(this.heroeBorrado);
   }
 }
