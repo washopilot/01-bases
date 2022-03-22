@@ -5,7 +5,7 @@ import { ListadoComponent } from './listado/listado.component';
 
 @NgModule({
   declarations: [HeroeComponent, ListadoComponent],
-  exports: [ListadoComponent],
+  exports: [HeroeComponent, ListadoComponent],
   imports: [CommonModule]
 })
 export class HeroesModule {}
